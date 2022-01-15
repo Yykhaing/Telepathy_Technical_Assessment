@@ -6,29 +6,29 @@ using System.Threading.Tasks;
 
 namespace Telepathy_Technical_Assessment.Task_1
 {
-    class HotelRoomService : IHotelRomService
+    class HotelRoomService : IHotelRoomService
     {
-        int IHotelRomService.AssignRoom()
+        int IHotelRoomService.AssignRoom()
         {
             throw new NotImplementedException();
         }
 
-        bool IHotelRomService.CheckOutRoom(int RoomId)
+        bool IHotelRoomService.CheckOutRoom(int RoomId)
         {
             throw new NotImplementedException();
         }
 
-        bool IHotelRomService.CleanRoom(int RoomId)
+        bool IHotelRoomService.CleanRoom(int RoomId)
         {
             throw new NotImplementedException();
         }
 
-        bool IHotelRomService.GetAllAvailableRooms()
+        Room[] IHotelRoomService.GetAllAvailableRooms()
         {
             throw new NotImplementedException();
         }
 
-        bool IHotelRomService.RepairRoom(int RoomId)
+        bool IHotelRoomService.RepairRoom(int RoomId)
         {
             throw new NotImplementedException();
         }

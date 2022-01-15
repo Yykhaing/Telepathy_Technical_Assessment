@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Telepathy_Technical_Assessment.Task_1
 {
-    interface IHotelRomService
+    interface IHotelRoomService
     {
         int AssignRoom();
 
@@ -16,7 +16,7 @@ namespace Telepathy_Technical_Assessment.Task_1
 
         bool RepairRoom(int RoomId);
 
-        bool GetAllAvailableRooms();
+        Room[] GetAllAvailableRooms();
 
     }
 }
